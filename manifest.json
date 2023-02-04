@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Export Table as CSV",
+  "permissions": [ "contextMenus", "activeTab", "storage" ],
+  "description": "Tải dữ liệu trên bảng về dưới dạng file CSV.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icons/16x16.png",
+    "24": "icons/24x24.png",
+    "32": "icons/32x32.png",
+    "48": "icons/48x48.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+ }
+}
